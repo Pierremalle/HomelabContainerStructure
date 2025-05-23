@@ -1,0 +1,28 @@
+title: Pierremalle Homepage
+description: Pierremalle homepage, dedicated to own multiples services and projects in my future house.
+startUrl: https://homepage.pierremalle.dev
+theme: dark
+color: emerald
+language: fr
+
+layout:
+  Programmation:
+    style: row
+    columns: 4
+  Lifestyle:
+    style: row
+    columns: 4
+  Configuration:
+    style: row
+    columns: 4
+
+
+quicklaunch:
+  provider: custom
+  url: https://www.ecosia.org/search?q=
+  target: _blank
+  suggestionUrl: https://ac.ecosia.org/autocomplete?type=list&q=
+
+
+hideVersion: true
+showStats: true

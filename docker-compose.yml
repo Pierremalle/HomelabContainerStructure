@@ -5,8 +5,9 @@ services:
     ports:
       - 3000:3000
     volumes:
-      - ./homepage/config.yml:/app/config # Make sure your local config directory exists
-      - /var/run/docker.sock:/var/run/docker.sock # (optional) For docker integrations
+      - ./homepage/config:/app/config/custom
+      - ./homepage/settings.yaml:/app/settings.yaml
+      - ./homepage/services.yaml:/app/services.yaml
+      - ./homepage/bookmarks.yaml:/app/bookmarks.yaml
+      - /var/run/docker.sock:/var/run/docker.sock
     env_file: "./homepage/.env"
-    environment:
-      HOMEPAGE_ALLOWED_HOSTS: $HOMEPAGE_ALLOWED_HOSTS
