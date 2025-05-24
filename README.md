@@ -9,10 +9,9 @@ A whole list of containers is gonna be given with for each their configuration i
 ## List of containers
 
 - [ ] [Homepage](https://gethomepage.dev) : Allow to have a view of its homelab and all containers opened.
-- [ ] [Ferron](https://www.ferronweb.org) : A Rust-written webserver that can also be used as a reverse proxy. Usefule for doing its own sites and access with ease.
+- [ ] [Ferron](https://www.ferronweb.org) : A Rust-written webserver that can also be used as a reverse proxy. Useful for doing its own sites and access with ease.
 - [ ] [Mealie](https://mealie.io) : A recipe management service allowing to find recipes and track needed ingredients.
 - [ ] [Home assistant](https://www.home-assistant.io) : An open source automation helper to manage domotic
-- [ ] [Cockpit](https://cockpit-project.org) : A handy interface to manage the server itself, allowing to see its usage and do some other manipulation on it.
 - [ ] [Grafana](https://grafana.com) : A multi database explorer allowing to gather a lots of datas and displaying them with fancy graphs. Usefule for manual automation.
 
 A big list of other containers can be found on this [address](https://github.com/ccbikai/awesome-homelab).
